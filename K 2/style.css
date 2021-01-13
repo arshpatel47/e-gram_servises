@@ -1,0 +1,149 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image:url(statue-of-unity.png)
+    background-size:cover;
+    background-position: center;
+   
+    font-family: sans-serif;
+}
+.menu-bar
+{
+    background-image:  linear-gradient(to right,#00BCD3FF, #8BC24AFF);  
+    text-align: center; 
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: white
+        
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #fff
+}
+.active,.menu-bar ul li:hover
+{
+    background: #000000FF;
+    border-radius: 3px; 
+
+}
+.menu-bar .fa
+{
+    margin-right: 8px;
+}
+.sub-menu-1
+{
+ display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background-color: #000000FF;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+   border-bottom: none; 
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+  color: grey;  
+}
+.anyror
+{
+
+}
+#banner
+{
+    background-image: linear-gradient(to right,#00BCD3FF, #8BC24AFF);  
+    color: #fff;
+    padding-top:5%;
+}
+.promo-title
+{
+   
+   padding-left: 35%;
+
+    font-size: 80px;
+    font-weight: 700;
+    margin-top: 100px;
+    color: white
+    
+}
+.second-title
+{
+   padding-left: 25%;
+    font-size: 50px;
+   font-weight: 
+   margin-top: 200px; 
+   color: white
+}
+.therd-title
+{
+ 
+ padding-left: 45%;
+ font-size: 25%;
+    font-size: 20px;
+   
+   margin-top: 100px; 
+   color: white  
+   
+
+  
+}
+.FORTH-title{
+    padding-left: 35%;
+ font-size: 25%;
+    font-size: 20px;
+   font-weight:100;
+   
+   margin-top: 10px; 
+   color: white  
+   opacity: 1;
+   
+
+}
+.FORTH-title:hover{
+    color:black ;
+    
+    
+}
+
+
+.bottom-img
+{
+    width: 100%;
+}
+.logo{
+    padding-left: 45%;
+}

@@ -1,0 +1,36 @@
+
+
+h1{
+
+    border-color: white;
+    color: white;
+
+
+    background-image: url('thin-header-1920x250.jpg');
+    padding-left: 40%;
+    font-family: sans-serif;
+    border-radius: 10px;
+    
+}
+h3:hover{
+    background-color: rgb(250, 246, 246);  
+    color: rgb(20, 2, 2);
+    border-radius: 10px;
+    
+    
+    font-variant:inherit;
+    
+
+}
+h3{
+    padding-left: 10%;
+    opacity: 1;
+    color: azure;
+  
+}
+.form_page{
+   
+    background-color: darkgray;
+    border-radius: 10px;
+
+}
